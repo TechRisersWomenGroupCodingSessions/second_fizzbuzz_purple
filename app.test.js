@@ -21,5 +21,5 @@ const fizzbuzz = require('./app');
 // });
 
 test('raise a custom error when passing invalid value', () => {
-  expect(() => {fizzbuzz('lol')}).toThrowError('Lol, you messed up :P');
+    expect(() => { fizzbuzz('lol') }).toThrowError('Lol, you messed up :P');
 });
