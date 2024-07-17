@@ -1,5 +1,5 @@
-const sum = require('./app');
+const fizzbuzz = require('./app');
 
-test('adds 1 + 2 to equal 3', () => {
-  expect(sum(1, 2)).toBe(3);
+test('separates rows with newline', () => {
+  expect(fizzbuzz(2)).toBe("1\n2");
 });
